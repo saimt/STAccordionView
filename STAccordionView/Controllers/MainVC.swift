@@ -18,7 +18,7 @@ class MainVC: UIViewController {
     var arrDatesSecond = ["12 June", "13 June", "14 June", "15 June", "16 June"]
     var arrTitles = ["First Year", "Second Year","Third Year"]
     var height: CGFloat = 0.0
-    var tappedHeader = 0
+    var tappedHeader = -1
     
     //MARK: Load
     override func viewDidLoad() {
